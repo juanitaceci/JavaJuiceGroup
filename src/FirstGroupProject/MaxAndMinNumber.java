@@ -27,6 +27,28 @@ public class MaxAndMinNumber {
 			int num2 = arr.length;
 			System.out.println( "Minimum number in the array "+ getMin(arr, num2));
 			System.out.println( "Maximum number in the array "+ getMax(arr, num2));
+		
+		System.out.println("------------- Class Example ----------");
+		
+		int [] array= {10,5,3,-5,15};
+		int largest=array[0];
+		int smallest=array[0];
+		for(int i=1; i<array.length; i++) {
+			if(array[i]>largest) {
+				largest=array[i];
+			}
+		if(array[i]<smallest) {
+			
+		}
+		}
+		System.out.println("Largest Number is ="+largest);
+		
+		
+		
+		
+		
+		
+		
 		}
 
 

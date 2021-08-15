@@ -13,6 +13,23 @@ public class FibonacciSeries {
 		System.out.println(series[s]);
 	}
 	
+	System.out.println("------ Class Example -----");
+	
+	int previousNumber=0;
+	int currentNumber=1;
+	int sumOfPreviousAndCurrent=0;
+	int numbersToGenerate=10; //Because we have 10 numbers to generate
+	
+	System.out.println(previousNumber);
+	System.out.println(currentNumber);
+	
+	for(int i=0; i<numbersToGenerate-2; i++) {
+		sumOfPreviousAndCurrent=previousNumber+currentNumber;
+		System.out.println(sumOfPreviousAndCurrent);
+		previousNumber=currentNumber;
+		currentNumber=sumOfPreviousAndCurrent;
+	}
+	
 	
 	
 	}

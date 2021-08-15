@@ -11,7 +11,9 @@ public class SumEvenOdd {
 		 */
 		
 		int arr[][] = {{ 22, 32, 44, 57, 69,78 },{45,65,58,95}};
+		
         int even = 0, odd = 0;
+        
         for (int i = 0; i < arr.length; i++) {
         	for(int j=0; j<arr[i].length; j++)
         	if (i % 2 == 0)
